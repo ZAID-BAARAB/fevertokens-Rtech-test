@@ -2,9 +2,9 @@
 this is a project created for technical test in the aim of joining FeverTokens company's internship in React Native Development. 
 
 
-`
+
 i used Expo, which is a set of tools and services built around React Native to simplify the development of mobile applications. 
-that allows you to test your apps on real devices and also testing your app on a virtual device emulator
+that allows you to test your apps on real devices and also testing your app on a virtual device emulator.
 
 command to install expo
 ```bash
@@ -14,7 +14,7 @@ npm install -g expo-cli
 i created this project by running command :
 ```bash
 npx create-expo-app@latest TestTechniqueApp
-``
+```
 
 ## Task 1 :
 The packages react-native-screens and react-native-safe-area-context are essential for enhancing the performance and layout of React Native applications, 
