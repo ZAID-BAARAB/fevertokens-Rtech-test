@@ -1,5 +1,18 @@
 # fevertokens-Rtech-test
+this is a project created for technical test in the aim of joining FeverTokens company's internship in React Native Development. 
 
+
+i created this project by running command :
+```bash
+npx create-expo-app@latest TestTechniqueApp
+```
+i used Expo, which is a set of tools and services built around React Native to simplify the development of mobile applications. 
+that allows you to test your apps on real devices and also testing your app on a virtual device emulator
+
+command to install expo
+```bash
+npm install -g expo-cli
+```
 
 ## Task 1 :
 The packages react-native-screens and react-native-safe-area-context are essential for enhancing the performance and layout of React Native applications, 
@@ -45,9 +58,9 @@ Java Code:
         System.out.println("Hello World!");
     }
 } 
-
+```
 Output:
-'''
+
 1
 2
 Hello 
@@ -148,9 +161,27 @@ Hello
 Yoo
 Hello 
 World
-Hello World! 
+Hello World!  
 
+```Python
+def main():
+    for i in range(1, 101):
+        if i % 3 == 0:
+            print("Hello ")
+        elif i % 5 == 0:
+            print("World")
+        elif i % 7 == 0:
+            print("Yoo")
+        else:
+            print(i)
+    
+    print("Hello World!")
 
+if __name__ == "__main__":
+    main()
+```
+Output:
+1 2 Hello 4 World Hello Yoo 8 Hello World 11 Hello 13 Yoo Hello 16 17 Hello 19 World Hello 22 23 Hello World 26 Hello Yoo 29 Hello 31 32 Hello 34 World Hello 37 38 Hello World 41 Hello 43 44 Hello 46 47 Hello Yoo World Hello 52 53 Hello World Yoo Hello 58 59 Hello 61 62 Hello 64 World Hello 67 68 Hello World 71 Hello 73 74 Hello 76 Yoo Hello 79 World Hello 82 83 Hello World 86 Hello 88 89 Hello Yoo 92 Hello 94 World Hello 97 Yoo Hello World Hello World!
 
 ## Task 3 :
 
