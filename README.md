@@ -44,7 +44,7 @@ Java Code:
         }
         System.out.println("Hello World!");
     }
-} ```
+} 
 
 Output:
 '''
@@ -148,7 +148,7 @@ Hello
 Yoo
 Hello 
 World
-Hello World! '''
+Hello World! 
 
 
 
