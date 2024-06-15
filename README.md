@@ -1,7 +1,7 @@
 # fevertokens-Rtech-test
 
 
-##Task 1 :
+## Task 1 :
 The packages react-native-screens and react-native-safe-area-context are essential for enhancing the performance and layout of React Native applications, 
 especially when using navigation libraries such as React Navigation.
 
@@ -19,7 +19,7 @@ npm install axios
 
 
 
-##Task 2 :
+## Task 2 :
 
 Java Code:
 
@@ -147,7 +147,7 @@ Hello World! '''
 
 
 
-##Task 3 :
+## Task 3 :
 
 to resolve this problem, since my car  has infinite gas this means that i can make an exhaustive search method, for this i will do the folllowing :
 - i will start in my current point i will call it A  and i will drive a distance   to East lets call this initial distance "d"
