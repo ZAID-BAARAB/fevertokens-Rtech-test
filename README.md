@@ -4,18 +4,22 @@
 ## Task 1 :
 The packages react-native-screens and react-native-safe-area-context are essential for enhancing the performance and layout of React Native applications, 
 especially when using navigation libraries such as React Navigation.
-
+```bash
 npm install @react-navigation/native @react-navigation/stack
+```
+```bash
 npm install react-native-screens react-native-safe-area-context
+```
 
 installing react-native-svg-charts 
+```bash
 npm install react-native-svg react-native-svg-charts
-
+```
 Axios is a promise-based HTTP client for the browser and Node.js that simplifies making asynchronous HTTP requests to REST endpoints.
 i installed this library to my project using this command.
-
+```bash
 npm install axios
-
+```
 
 
 
@@ -23,7 +27,8 @@ npm install axios
 
 Java Code:
 
-``` public class Main {
+```Java
+ public class Main {
     public static void main(String args[]) {
         
         for(int i=1; i<=100;i++){
