@@ -23,7 +23,7 @@ Task 2 :
 
 Java Code:
 
-'''public class Main {
+''' public class Main {
     public static void main(String args[]) {
         
         for(int i=1; i<=100;i++){
@@ -39,10 +39,10 @@ Java Code:
         }
         System.out.println("Hello World!");
     }
-}'''
+} '''
 
 Output:
-
+'''
 1
 2
 Hello 
@@ -143,7 +143,7 @@ Hello
 Yoo
 Hello 
 World
-Hello World!
+Hello World! '''
 
 
 
