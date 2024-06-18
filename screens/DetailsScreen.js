@@ -35,11 +35,11 @@ const DetailsScreen = ({ route }) => {
         datasets: [
             {
                 data: [coin.low_24h, coin.high_24h],
-                color: (opacity = 1) => `rgba(134, 65, 244, ${opacity})`, // optional
-                strokeWidth: 2, // optional
+                color: (opacity = 1) => `rgba(134, 65, 244, ${opacity})`, 
+                strokeWidth: 2, 
             },
         ],
-        legend: ['High and Low in Last 24 Hours'], // optional
+        legend: ['High and Low in Last 24 Hours'], 
     };
 
     return (
@@ -59,7 +59,7 @@ const DetailsScreen = ({ route }) => {
                     backgroundColor: '#e26a00',
                     backgroundGradientFrom: '#fb8c00',
                     backgroundGradientTo: '#ffa726',
-                    decimalPlaces: 2, // optional, defaults to 2dp
+                    decimalPlaces: 2, 
                     color: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
                     labelColor: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
                     style: {

@@ -1,6 +1,5 @@
 import React, { memo } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native';
-
 const CryptocurrencyItem = ({ coin, onAddToPortfolio, navigation }) => {
     return (
         <TouchableOpacity style={styles.container} onPress={() => navigation.navigate('Details', { coinId: coin.id })}>

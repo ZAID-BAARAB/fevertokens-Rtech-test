@@ -58,10 +58,10 @@ const styles = StyleSheet.create({
 
     image: {
         width: '40%',
-        height: undefined, // Let aspectRatio determine the height
-        aspectRatio: 1, // Maintain the aspect ratio
+        height: undefined, 
+        aspectRatio: 1, 
         marginBottom: 16,
-        alignSelf: 'center', // Center the image horizontally
+        alignSelf: 'center', 
     },
 });
 
