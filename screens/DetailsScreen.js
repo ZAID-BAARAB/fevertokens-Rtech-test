@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, Dimensions, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, Dimensions, ScrollView, ActivityIndicator } from 'react-native';
 import { LineChart } from 'react-native-chart-kit';
 import { fetchCryptocurrencies } from '../services/api';
 
@@ -20,9 +20,13 @@ const DetailsScreen = ({ route }) => {
 
     if (!coin) {
         return (
-            <View style={styles.container}>
-                <Text>Loading...</Text>
-            </View>
+                <View style={styles.loadingContainer}>
+                    <ActivityIndicator size="large" color="#0000ff" />
+                </View>
+            
+            // <View style={styles.container}>
+            //     <Text>Loading...</Text>
+            // </View>
         );
     }
 
@@ -92,6 +96,11 @@ const styles = StyleSheet.create({
         fontSize: 16,
         marginBottom: 8,
         textAlign: 'center',
+    },
+    loadingContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
 });
 

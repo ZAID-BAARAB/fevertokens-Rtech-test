@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
+import { View, Text, TextInput, Button, StyleSheet, Image } from 'react-native';
 
 const LoginScreen = ({ navigation }) => {
     const [username, setUsername] = useState('');
@@ -16,7 +16,9 @@ const LoginScreen = ({ navigation }) => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Login</Text>
+            <Text style={styles.title}>Login</Text>   
+            <Image source={require('../assets/crpt.png')} style={styles.image} />
+         
             <TextInput
                 style={styles.input}
                 placeholder="Username"
@@ -52,6 +54,14 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         marginBottom: 12,
         paddingLeft: 8,
+    },
+
+    image: {
+        width: '40%',
+        height: undefined, // Let aspectRatio determine the height
+        aspectRatio: 1, // Maintain the aspect ratio
+        marginBottom: 16,
+        alignSelf: 'center', // Center the image horizontally
     },
 });
 
